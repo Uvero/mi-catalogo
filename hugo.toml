@@ -1,4 +1,28 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://uvero-catalogos.pages.dev/'
 languageCode = 'es-es'
-title = 'Mi Catalogo'
-theme = 'ananke' 
+title = 'Catálogo de Equipos AV & Redes'
+theme = 'hextra'
+
+[markup.goldmark.renderer]
+unsafe = true # Permite botones y HTML
+
+[params.search]
+  # Configuración de búsqueda de Hextra
+    enable = true
+    type = 'flexsearch'
+    placeholder = 'Buscar por Cliente, Proyecto o ID...'
+  # Configuramos para que busque en todos los campos del Front Matter
+  fields = ["title", "content", "customer", "project", "model", "margin"]
+    
+[[menu.main]]
+  name = "Catálogo"
+  url = "/catalogo"
+  weight = 10
+
+[[menu.main]]
+  name = "Facturas"
+  url = "/factura"
+  weight = 20
+  
+
+  

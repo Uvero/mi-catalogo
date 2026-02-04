@@ -1,0 +1,24 @@
+{{ $data := getCSV "," "data/resumen_dashboard.csv" }}
+{{ $zip := "" }}
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+    <h2>Dashboard de Ventas</h2>
+    {{ range $i, $r := $data }}{{ if eq $i 1 }}{{ $zip = index $r 14 }}{{ end }}{{ end }}
+    <a href="/{{ $zip }}" download style="background: #27ae60; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold;">
+        📦 Descargar ZIP del Período
+    </a>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
+  {{ range $i, $r := $data }}{{ if gt $i 0 }}
+    {{ $fam := index $r 5 }}
+    <div style="border-left: 10px solid; padding: 15px; background: #f9f9f9; border-radius: 5px;">
+        <h4 style="margin:0;">{{ index $r 1 }}</h4>
+        <small>{{ $fam }}</small>
+        <hr>
+        <p><strong>USD:</strong> ${{ index $r 7 }}</p>
+        <p><strong>DOP:</strong> RD${{ index $r 12 }}</p>
+        <p><strong>EUR:</strong> €{{ index $r 13 }}</p>
+    </div>
+  {{ end }}{{ end }}
+</div>

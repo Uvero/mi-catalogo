@@ -1,0 +1,17 @@
+﻿ID,Nombre,Modelo,NumeroParte,Proyecto,Familia,Cliente,Precio,Costo,Fecha,Tipo,Imagen,Precio_DOP,Precio_EUR
+AUD-01,Parlante Techo JBL,Control 14C/T,JBL-C14CT,Residencial Bavaro,Audio,Cliente Alpha,150,95,2026-02-01,Catalogo,jbl_c14.png,9150,140
+AUD-02,Amplificador Crown,XLi 800,CRW-XLI800,Restaurante Playa,Audio,Restaurante Mar,600,420,2026-02-02,Catalogo,crown_xli.png,36600,560
+VID-01,Monitor NEC 55,V554-RP,NEC-V554,Sala Juntas A,Video,Corp Inabacoa,1200,850,2026-01-15,Catalogo,nec_55.png,73200,1120
+VID-02,Matriz Kramer,VS-44H2,KRM-VS44,Villa Cap Cana,Video,Propietario Villa,2500,1800,2026-01-20,Catalogo,kramer_matriz.png,152500,2320
+LAN-01,Switch Aruba 24G,JL682A,ARB-1930-24,Oficinas Central,LAN,Seguros RD,450,310,2026-02-03,Catalogo,aruba_24.png,27450,420
+WAN-01,Router Cisco ISR,C1111-8P,CIS-1111,Enlace Sucursal,WAN,Banco Local,950,700,2026-02-01,Catalogo,cisco_isr.png,57950,885
+UPS-01,Smart-UPS APC 1500,SMT1500C,APC-1500,Proteccion Servidor,UPS,Clinic Center,580,410,2026-02-04,Catalogo,apc_1500.png,35380,540
+TEL-01,Telefono IP Yealink,SIP-T46U,YEA-T46U,Call Center,Telefonia,Exportadora X,195,140,2026-02-02,Catalogo,yealink_t46.png,11895,182
+WIF-01,Access Point Ruckus,R550,RUK-R550,Wifi Huespedes,WIFI,Resort Palace,650,450,2026-02-03,Catalogo,ruckus_r550.png,39650,605
+FWL-01,FortiGate 60F,FG-60F-BDL,FTN-60F,Seguridad Perimetral,Firewall,Colegio Int,900,650,2026-02-04,Catalogo,fortigate_60f.png,54900,840
+CCT-01,Camara Hikvision 4K,DS-2CD2185G0,HIK-4K,Perimetro Norte,CCTV,Condominio A,180,115,2026-02-01,Catalogo,hik_4k.png,10980,168
+DOM-01,Controlador Control4,C4-CA10,C4-CA10,Smart Home,Domotica,Villa Luxury,2800,1950,2026-02-01,Catalogo,control4_ca10.png,170800,2605
+AUT-01,PLC Siemens S7-1200,6ES7214,SIE-S71200,Control Bombas,Automatica,Acueducto PC,450,320,2026-02-03,Catalogo,siemens_s7.png,27450,420
+LIC-01,Licencia Windows Server,DG7GMGF0M,MS-WS22,Servidor Local,Licencias,Consultora Y,800,620,2026-02-01,Catalogo,win_server.png,48800,745
+SFT-01,Office 365 Business,O365-BUS,MS-O365,Productividad,Software,Bufete Abogados,125,100,2026-02-01,Catalogo,office_365.png,7625,116
+PAS-01,Bobina Cable Cat6,PUP6004BU,PAN-C6-305,Cableado Estructurado,Pasivos,Contratista A,220,155,2026-02-04,Catalogo,cat6_bobina.png,13420,205
